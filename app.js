@@ -1,4 +1,4 @@
-fetch("http://127.0.0.1:5500/JSON%20task/result.json")
+fetch("./result.json")
     .then((res) => res.json())
     .then((dataList) => {
         let card_body = document.getElementById("cardBody");
